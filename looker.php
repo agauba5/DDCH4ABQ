@@ -1,5 +1,5 @@
 <?php
-// Helping out site Index
+// Helping out site Indexx
 // All Rights Reserved, (c) 2018, Anas Gauba, Abdul Gauba, Nathan Schaefer, R. Bruce Pitt
 
 if (!isset($lowerLevel))
