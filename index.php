@@ -29,7 +29,7 @@ require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
 				<div class="col-md-4 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s">
 					<div class="text-center">
 						<div class="hi-icon-wrap hi-icon-effect">
-							<a href="seeking.php"> <i class="fa fa-pencil"></i>
+							<a href="seeker.php"> <i class="fa fa-pencil"></i>
 								<h2>Seeking</h2></a>
                                                         <p>Looking for someone for help?<br>
                                                         Click this button!</p>
