@@ -339,7 +339,7 @@ hr {
 	margin-bottom:30px;
 	color:#fff;
 	padding:50px;
-	background:#0BA9F9;
+	background: #1CAF3A; /* was 0BA9F9 */
 	border-radius:50%;
 }
 .text-center h2 {
