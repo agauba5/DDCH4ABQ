@@ -62,7 +62,7 @@ require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
                 <h2>Free Stuff</h2>
               </li>
               <li><a href="https://albuquerque.craigslist.org/search/zip">
-                        Craiglist</a></li>
+                        Craigslist</a></li>
               <li><a href="https://www.pennysaverusa.com/classifieds/merchandise/free-stuff/usa/new-mexico/bernalillo/albuquerque/#!/albuquerque-albuquerque/bernalillo-bernalillo/classifieds-classifieds/free-stuff/https:-https:/merchandise-merchandise/new-mexico/radius-2/usa-usa/www.pennysaverusa.com-www.pennysaverusa.com/">
                              Pennysaver</a></li>
               <li><a href="https://us.letgo.com/en/i/free-stuff_b19c6af1-a61e-4793-8722-11bcd067436a">
