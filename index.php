@@ -15,42 +15,44 @@ require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
 		<div class="container">
 			<div class="row">
 				<div class="text-center">
-					<h3>HELLO BRUCE</h3>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit<br>amet consectetur adipisicing elit</p>
+                                    <h3>OUR GOAL</h3>
+                                    <img src='img/backpic.jpg' alt='stretch'/>
+                                    <h4><b>Welcome to Helping Out Us!</b><br></h4>
+                                    <p>
+                                        Here, you can help people OR get help
+                                        from mentors. The goal of this website is to
+                                        help people who are in need OR who want to help
+                                        people.<br>Below are two options for you to choose
+                                        from! Go ahead and choose from it! May you have an awesome
+                                        experience</p>
 				</div>
-				<div class="col-md-3 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s">
+				<div class="col-md-4 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s">
 					<div class="text-center">
 						<div class="hi-icon-wrap hi-icon-effect">
-							<i class="fa fa-laptop"></i>						
-							<h2>Fully Responsive</h2>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+							<i class="fa fa-pencil"></i>
+							<h2>Seeking</h2>
+                                                        <p>Looking for someone for help?<br>
+                                                        Click this button!</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-3 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s">
+				<div class="col-md-4 wow fadeInLeft" data-wow-offset="0" data-wow-delay="0.3s">
 					<div class="text-center">
 						<div class="hi-icon-wrap hi-icon-effect">
-							<i class="fa fa-heart-o"></i>
-							<h2>Retina Ready</h2>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+							<i class="fa fa-plus"></i>
+							<h2>Resources</h2>
+							<p>Want additional help?<br>
+                                                            Browse through external resources</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-3 wow fadeInLeft" data-wow-offset="0" data-wow-delay="0.3s">
+				<div class="col-md-4 wow fadeInLeft" data-wow-offset="0" data-wow-delay="0.3s">
 					<div class="text-center">
 						<div class="hi-icon-wrap hi-icon-effect">
-							<i class="fa fa-cloud"></i>
-							<h2>Easily Customize</h2>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 wow fadeInLeft" data-wow-offset="0" data-wow-delay="0.3s">
-					<div class="text-center">
-						<div class="hi-icon-wrap hi-icon-effect">
-							<i class="fa fa-camera"></i>
-							<h2>Quality Code</h2>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+							<i class="fa fa-users"></i>
+							<h2>Providing</h2>
+                                                        <p>Want to help someone?<br>
+                                                        Click this button!</p>
 						</div>
 					</div>
 				</div>
