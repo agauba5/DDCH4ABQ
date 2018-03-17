@@ -5,7 +5,8 @@
 if (!isset($lowerLevel))
     $lowerLevel = '';
 
-$readyJS = ""; ?>
+$readyJS = "";
+$pageId = ""?>
 <!DOCTYPE html>
 
 <html lang="en">
