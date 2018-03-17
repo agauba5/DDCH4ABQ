@@ -8,7 +8,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html" style="color: white; font-style: italic; font-weight: bold">Helping Out Us</a>
+                    <a class="navbar-brand" href="index.php" style="color: white; font-style: italic; font-weight: bold">Helping Out Us</a>
                 </div>				
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
