@@ -29,8 +29,8 @@ require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
 				<div class="col-md-4 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s">
 					<div class="text-center">
 						<div class="hi-icon-wrap hi-icon-effect">
-							<i class="fa fa-pencil"></i>
-							<h2>Seeking</h2>
+							<a href="seeking.php"> <i class="fa fa-pencil"></i>
+								<h2>Seeking</h2></a>
                                                         <p>Looking for someone for help?<br>
                                                         Click this button!</p>
 						</div>
@@ -39,8 +39,8 @@ require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
 				<div class="col-md-4 wow fadeInLeft" data-wow-offset="0" data-wow-delay="0.3s">
 					<div class="text-center">
 						<div class="hi-icon-wrap hi-icon-effect">
-							<i class="fa fa-plus"></i>
-							<h2>Resources</h2>
+							<a href="resources.php"> <i class="fa fa-plus"></i>
+								<h2>Resources</h2></a>
 							<p>Want additional help?<br>
                                                             Browse through external resources</p>
 						</div>
@@ -49,8 +49,8 @@ require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
 				<div class="col-md-4 wow fadeInLeft" data-wow-offset="0" data-wow-delay="0.3s">
 					<div class="text-center">
 						<div class="hi-icon-wrap hi-icon-effect">
-							<i class="fa fa-users"></i>
-							<h2>Providing</h2>
+							<a href="provider.php"> <i class="fa fa-users"></i>
+								<h2>Providing</h2></a>
                                                         <p>Want to help someone?<br>
                                                         Click this button!</p>
 						</div>
