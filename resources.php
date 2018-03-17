@@ -8,11 +8,21 @@
         <table>
             Jobs
             <tr>
-                <td><a href="test.com">hello</a></td>
+                <td><a href="https://www.indeed.com/l-Albuquerque,-NM-jobs.html">Indeed</a></td>
             </tr>
             <tr>
-                <td><a href=""></a></td>
+                <td><a href="https://www.monster.com/jobs/l-albuquerque,-nm.aspx">
+                     Monster Jobs</a></td>
             </tr>
+            <tr>
+                <td><a href="https://www.snagajob.com/job-search/w-albuquerque,+nm">
+                     SnagaJob</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://albuquerque.craigslist.org/">
+                     Craigslist Jobs</a></td>
+            </tr>
+            
         </table>
         
         <table>
@@ -62,31 +72,21 @@
                         <td><a href="https://www.alignable.com/albuquerque-nm/directory/alpha/civic-groups-and-communities">
                              Civic Groups and Communities Businesses in Albuquerque</a></td>
             </tr>
-            <tr>
-                <td><a href=""></a></td>
-            </tr>
         </table>
         
         <table>
             Educational Resources
             <tr>
-                    <td><a href="https://datausa.io/profile/geo/albuquerque-nm/">
-                         Albuquerque Statistics</a></td>
+                <td><a href="https://datausa.io/profile/geo/albuquerque-nm/">
+                     Albuquerque Statistics</a></td>
             </tr>
             <tr>
-                <td><a href=""></a></td>
+                <td><a href="https://www.census.gov/quickfacts/fact/table/albuquerquecitynewmexico/PST045216">
+                     Census Statistics</a></td>
             </tr>
-                        <tr>
-                <td><a href=""></a></td>
-            </tr>
-                       <tr>
-                <td><a href=""></a></td>
-            </tr>
-                        <tr>
-                <td><a href=""></a></td>
-            </tr>
-                        <tr>
-                <td><a href=""></a></td>
+            <tr>
+                <td><a href="https://q1medicare.com/q1group/MedicareAdvantagePartD/Blog.php?blog=2018-Federal-Poverty-Level-Guidelines--FPL---2018-LIS-Qualifications-and-Benefits&blog_id=674&frompage=8">
+                     Poverty Line 2018</a></td>
             </tr>
         </table>
         
