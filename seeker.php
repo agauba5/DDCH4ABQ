@@ -33,11 +33,19 @@ include "fakerequest.php";
                     </div>
                 </div>
                 <div class="col-sm-1">
+                    <label>
+                        Refresh
+                        <div style="margin:0 auto;width:25%;text-align:left"></div>
+                    </label>
                     <div class="hi-icon-wrap hi-icon-effect">
                         <i class="fa fa-refresh"></i>
                     </div>
                 </div>
                 <div class="col-sm-1">
+                    <label>
+                        Request
+                        <div style="margin:0 auto;width:25%;text-align:left"></div>
+                    </label>
                     <div class="hi-icon-wrap hi-icon-effect">
                         <i class="fa fa-plus"></i>
                     </div>                    
