@@ -45,7 +45,7 @@ include $lowerLevel . 'assets/inc/standard_header.inc.php';
 		<p><div class="g-recaptcha" data-sitekey="6Lf5T00UAAAAAMftiznOxxGm19P6Os8NQdHMTaIg"></div><br /></p>
 		
 			<button>create my user</button>
-          <p class="message">Already registered? <a onclick="changetosignin()">Sign In</a></p>
+          <p class="message">Already registered? <a href="index.php" onclick="changetosignin()">Sign In</a></p>
         </form>
       </div>
     </div>

@@ -35,6 +35,7 @@ function logmein()
 	var token = '12345678';
 	
 	SendCommand(cmdId, urlParms, cmdParams, token, logmeinDone);
+	window.location.replace("http://www.helpingout.us");
 }
 
 function logmeinDone(response, respText)
@@ -42,10 +43,12 @@ function logmeinDone(response, respText)
 	alert("logmeinDone");
 	if (response == 0)
 	{
-		alert("Success: label:" + response.errorLabel + " Msg:" + response.errorMsg);		
+		alert("Success: label:" + response.errorLabel + " Msg:" + response.errorMsg);
+		
 	}
 	else
 	{
 		alert("Error: " + response.code + " Text:" + respText);
 	}
+	window.location.replace("http://www.helpingout.us");
 }
