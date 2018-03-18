@@ -9,8 +9,16 @@ require_once $lowerLevel . 'assets/inc/standard_open.inc.php';
 require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
 ?>
 
+	<div id="feature">
+		<div class="container">
+			<div class="row">
+				<div class="text-center">
+                                    <h3>TERMS PAGE</h3>
+				</div>
+			</div>
+		</div>
+	</div>
 
-TERMS PAGE
 
 
 

@@ -10,7 +10,16 @@ require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
 ?>
 
 
-CONTACT PAGE
+	<div id="feature">
+		<div class="container">
+			<div class="row">
+				<div class="text-center">
+                                    <h3>CONTACT PAGE</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+
 
 
 
