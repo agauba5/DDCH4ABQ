@@ -16,6 +16,12 @@ require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
 				<div class="text-center">
                                     <h3>FAQ PAGE</h3>
 				</div>
+                            <div>
+                                <h4> How do I donate my time?</h4>
+                                <p> please go the Provider page and submit a request or help someone else by viewing the request from a seeker</p>
+                                <h4> How do I find help?</h4>
+                                <p> please go the Seeker page and submit a request or find someone that is helping by viewing the request from a provider</p>
+                            </div>
 			</div>
 		</div>
 	</div>
