@@ -7,6 +7,7 @@ if (!isset($lowerLevel))
 
 require_once $lowerLevel . 'assets/inc/standard_open.inc.php';
 require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
+include 'fakeRequest.php';
 ?>
 
 
@@ -23,9 +24,9 @@ require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
                             <label for="filterBy" class="col-sm-2 control-label">Filter By</label>
                                 <div class="col-sm-8">
                                     <select id="filterBy" name="filterBy" class="form-control" onChange="changeFilter('filterBy')">
-                                        <option value="0">Select All</option>
-                                        <option style="display:none" value="type">Radius</option>
-                                        <option style="display:none" value="type">Time Range</option>
+                                        <option value="all">Select All</option>
+                                        <option value="rad">Radius</option>
+                                        <option value="tim">Time Range</option>
                                     </select>
                                 </div>
                         </div>
@@ -63,14 +64,13 @@ require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
                     <ul>
                     <li class="heading-two">
                     <h2>Date</h2>
-                    </li>
-                    <li><a></a></li>
-                    <li><a></a></li>
-                    <li><a></a></li>
-                    <li><a></a></li>
-                        <li></li>
-                        <li class="plan-action">
-                        </li>
+					<?php
+					foreach ($giver as $id => $var ) 
+					{
+						$dateTime = date('l, F d, Y',$var['Date']);
+						echo '<li><a onclick="detailGiver(' . $var['ID'] . ')" style="font-size: 11px;">' . $dateTime . '</a></li>' . PHP_EOL;
+					}
+					?>
                     </ul>
                 </div>
                 <div class="col-sm-5 plan price-one wow fadeInDown" data-wow-offset="0" data-wow-delay="0.2s">
@@ -78,13 +78,12 @@ require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
                     <li class="heading-two">
                     <h2>Title</h2>
                     </li>
-                    <li><a></a></li>
-                    <li><a></a></li>
-                    <li><a></a></li>
-                    <li><a></a></li>
-                        <li></li>
-                        <li class="plan-action">
-                        </li>
+					<?php
+					foreach ($giver as $id => $var ) 
+					{
+						echo '<li><a onclick="detailGiver(' . $var['ID']. ')" style="font-size: 11px;">' . $var['Title'] . '</a></li>' . PHP_EOL;
+					}
+					?>
                     </ul>
                 </div>
                 <div class="col-sm-5 plan price-one wow fadeInDown" data-wow-offset="0" data-wow-delay="0.2s">
@@ -92,13 +91,12 @@ require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
                     <li class="heading-two">
                     <h2>Detail</h2>
                     </li>
-                    <li><a></a></li>
-                    <li><a></a></li>
-                    <li><a></a></li>
-                    <li><a></a></li>
-                        <li></li>
-                        <li class="plan-action">
-                        </li>
+					<?php
+					foreach ($giver as $id => $var ) 
+					{
+						echo '<li>' . '<button onclick="detailGiver('.$var['ID'].')">View Detail</button>' . '</li>' . PHP_EOL;
+					}
+					?>
                     </ul>
                 </div>
             </div>
@@ -113,4 +111,7 @@ require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
 <?php
 require_once $lowerLevel . 'assets/inc/standard_footer.inc.php';
 require_once $lowerLevel . 'assets/inc/standard_script.inc.php';
+?>
+<script src="assets/js/provider.js"></script>
+<?php
 require_once $lowerLevel . 'assets/inc/standard_close.inc.php';
