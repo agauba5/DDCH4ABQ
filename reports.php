@@ -14,6 +14,7 @@ require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
 			<div class="row">
 				<div class="text-center">
                                     <h3>REPORT PAGE</h3>
+                                    <h4>FOUNDATION LOGIN/ANALYTICS</h4>									
 				</div>
 			</div>
 		</div>
