@@ -24,9 +24,9 @@ include "fakerequest.php";
                             <label for="filterBy" class="col-sm-2 control-label">Filter By</label>
                                 <div class="col-sm-8">
                                     <select id="filterBy" name="filterBy" class="form-control" onChange="changeFilter('filterBy')">
-                                        <option value="0">Select All</option>
-                                        <option style="display:none" value="type">Radius</option>
-                                        <option style="display:none" value="type">Time Range</option>
+                                        <option value="all">Select All</option>
+                                        <option value="rad">Radius</option>
+                                        <option value="tim">Time Range</option>
                                     </select>
                                 </div>
                         </div>
