@@ -7,6 +7,7 @@ if (!isset($lowerLevel))
 
 require_once $lowerLevel . 'assets/inc/standard_open.inc.php';
 require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
+include 'fakeRequest.php';
 ?>
 
 
@@ -63,14 +64,13 @@ require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
                     <ul>
                     <li class="heading-two">
                     <h2>Date</h2>
-                    </li>
-                    <li><a></a></li>
-                    <li><a></a></li>
-                    <li><a></a></li>
-                    <li><a></a></li>
-                        <li></li>
-                        <li class="plan-action">
-                        </li>
+					<?php
+					foreach ($giver as $id => $var ) 
+					{
+						$dateTime = date('l, F d, Y',$var['Date']);
+						echo '<li><a onclick="detailSeeker(' . $var['ID'] . ')" style="font-size: 11px;">' . $dateTime . '</a></li>' . PHP_EOL;
+					}
+					?>
                     </ul>
                 </div>
                 <div class="col-sm-5 plan price-one wow fadeInDown" data-wow-offset="0" data-wow-delay="0.2s">
@@ -78,13 +78,12 @@ require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
                     <li class="heading-two">
                     <h2>Title</h2>
                     </li>
-                    <li><a></a></li>
-                    <li><a></a></li>
-                    <li><a></a></li>
-                    <li><a></a></li>
-                        <li></li>
-                        <li class="plan-action">
-                        </li>
+					<?php
+					foreach ($giver as $id => $var ) 
+					{
+						echo '<li><a onclick="detailSeeker(' . $var['ID']. ')" style="font-size: 11px;">' . $var['Title'] . '</a></li>' . PHP_EOL;
+					}
+					?>
                     </ul>
                 </div>
                 <div class="col-sm-5 plan price-one wow fadeInDown" data-wow-offset="0" data-wow-delay="0.2s">
@@ -92,13 +91,12 @@ require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
                     <li class="heading-two">
                     <h2>Detail</h2>
                     </li>
-                    <li><a></a></li>
-                    <li><a></a></li>
-                    <li><a></a></li>
-                    <li><a></a></li>
-                        <li></li>
-                        <li class="plan-action">
-                        </li>
+					<?php
+					foreach ($giver as $id => $var ) 
+					{
+						echo '<li>' . '<button onclick="detailSeeker('.$var['ID'].')">View Detail</button>' . '</li>' . PHP_EOL;
+					}
+					?>
                     </ul>
                 </div>
             </div>
