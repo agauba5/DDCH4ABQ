@@ -20,34 +20,39 @@ require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
                 <div class="col-lg-10 col-md-10">
                     <div class="widget">
                         <div class="widget-body">
-                            <form id="form-new-facility-client" class="form-horizontal no-margin">
-                                <div id="div-filterBy" class="form-group">
-                                    <label for="filterBy" class="col-sm-2 control-label">Filter By</label>
-                                    <div class="col-sm-8">
-                                        <select id="filterBy" name="filterBy" class="form-control" onChange="changeFilter('filterBy')">
-                                            <option value="0">Select All</option>
-                                            <option style="display:none" value="type">Radius</option>
-                                            <option style="display:none" value="type">Time Range</option>
-                                        </select>
-                                    </div>
+                            <label for="filterBy" class="col-sm-2 control-label">Filter By</label>
+                                <div class="col-sm-8">
+                                    <select id="filterBy" name="filterBy" class="form-control" onChange="changeFilter('filterBy')">
+                                        <option value="0">Select All</option>
+                                        <option style="display:none" value="type">Radius</option>
+                                        <option style="display:none" value="type">Time Range</option>
+                                    </select>
                                 </div>
-                            </form>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-1">
+                    <label>
+                        Refresh
+                        <div style="margin:0 auto;width:25%;text-align:left"></div>
+                    </label>
                     <div class="hi-icon-wrap hi-icon-effect">
                         <i class="fa fa-refresh"></i>
                     </div>
                 </div>
                 <div class="col-sm-1">
+                    <label>
+                        Request
+                        <div style="margin:0 auto;width:25%;text-align:left"></div>
+                    </label>
                     <div class="hi-icon-wrap hi-icon-effect">
                         <i class="fa fa-plus"></i>
                     </div>
                 </div>
-            </div>                
-        </div>
+            </div>
+        </div>                
     </div>
+</div>
  </div>
 
 <div id="pricing">
