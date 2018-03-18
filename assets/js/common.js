@@ -36,18 +36,18 @@ function show(id)
 }
 
 // Send This Command as a Post to the backend
-function SendCommand(subPageId, urlParams, cmdParams, token, callback) {
+function SendCommand(cmdId, urlParams, cmdParams, token, callback) {
 	window.response = null;
 	window.responseIn = 0;
 
-	var urlString = "apiloader.php?pg="+subPageId+"&tk="+token + urlParams;
+	var urlString = "data.php?cmd="+cmdId+"&tk="+token + urlParams;
 	var  sendContentType = "application/x-www-form-urlencoded";
 	//var $j = jQuery.noConflict();	
 	
 	var xhttp = new XMLHttpRequest();	
 	xhttp.onreadystatechange = function() {	
 		if ((xhttp.readyState == 4) && (xhttp.status == 200)) {
-				//alert("SendCommand Success: resp:" + xhttp.responseText + "\n\n\n\n\n\n\n\n");
+				alert("SendCommand Success: resp:" + xhttp.responseText + "\n\n\n\n\n\n\n\n");
 				window.lastHTML = xhttp.responseText;
 				window.response = JSON.parse(xhttp.responseText);			
 				window.responseIn = 1;

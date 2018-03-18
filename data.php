@@ -27,7 +27,11 @@ if ($userLoggedIn)
 		$filename = 'assets/data/' . $cmdPage . '.api.php';  
 		if (file_exists($filename))
 		{
+			header('Content-Type: application/json');
+			header("Content-Transfer-Encoding: UTF-8");
+			header("Expires: 0");
 			include $filename;  
+			exit();			
 		}
 		else
 		{			
@@ -61,9 +65,6 @@ header('Content-Type: application/json');
 header("Content-Transfer-Encoding: UTF-8");
 header("Expires: 0");
 echo json_encode($returnArray);	
-//error_log('APILOADER: 12:' . print_r($returnArray, true));	
-//error_log('APILOADER: 13:' . json_encode($returnArray));	
+//error_log('DATA: 12:' . print_r($returnArray, true));	
+//error_log('DATA: 13:' . json_encode($returnArray));	
 exit();
-
-
-

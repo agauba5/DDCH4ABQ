@@ -28,7 +28,7 @@ class encryptClass
         $this->encryptionMethod = "AES-256-CBC";
         $this->secretHash       = md5('RISKSENSECAANES');
         // R.BrucePitt, Justyna La Pay, Amanda Otter:Create Agri-CulturaNetwork, ThornBird/Mccuune
-        $this->iv               = 'NHSAHGMAGRBP142\0';   // Must be 16 including '\0'
+        $this->iv               = 'NHSAHGMAGRBP14\0';   // Must be 16 including '\0'
         $this->raw_output       = false;
     } // end method __construct
     

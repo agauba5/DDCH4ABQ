@@ -18,7 +18,7 @@ include $lowerLevel . 'assets/inc/standard_header.inc.php';
         <form class="login-form">
           <input id="loginId" name="loginId" type="text" placeholder="username"/>
           <input id="password" name="password" type="password" placeholder="password"/>
-          <button>login</button>
+          <button onclick="logmein()">login</button>
           <p class="message">Not registered? <a onclick="changetosignup()">Create an account</a></p>
         </form>
       </div>

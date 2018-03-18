@@ -7,7 +7,7 @@ require_once $lowerLevel . 'assets/classes/session.class.php';
 require_once $lowerLevel . 'assets/classes/encrypt.class.php';
 
 // Returns $userDispName (decyrpted name), $userLoggedIn (boolean), $userLoginTime (bigInt - unixtimestamp)
-include $lowerlevel . 'assets/inc/checklogin.inc.php';
+include $lowerLevel . 'assets/inc/checklogin.inc.php';
 ?>
 <header id="header">
         <nav class="navbar navbar-fixed-top" role="banner">
