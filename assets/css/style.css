@@ -870,6 +870,12 @@ ul.social-network li a {
   padding-top: 30px;
   margin: 0 auto ;
 }
+.seeker-page {
+  width: 360px;
+  padding: 60% 0 0;
+  padding-top: 30px;
+  margin: 0 auto ;
+}
 .form {
   position: relative;
   z-index: 1;
@@ -887,9 +893,4 @@ ul.social-network li a {
   padding-bottom: 100px;
   margin: auto;
 }
-.div-btn1{
-    padding: 0 25% 0 ;
-}
-.div-btn2{
-    white-space: 10px;
-}
+
