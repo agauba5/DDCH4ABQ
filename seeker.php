@@ -33,11 +33,19 @@ include "fakerequest.php";
                     </div>
                 </div>
                 <div class="col-sm-1">
+                    <label>
+                        Refresh
+                        <div style="margin:0 auto;width:25%;text-align:left"></div>
+                    </label>
                     <div class="hi-icon-wrap hi-icon-effect">
                         <i class="fa fa-refresh"></i>
                     </div>
                 </div>
                 <div class="col-sm-1">
+                    <label>
+                        Request
+                        <div style="margin:0 auto;width:25%;text-align:left"></div>
+                    </label>
                     <div class="hi-icon-wrap hi-icon-effect">
                         <i class="fa fa-plus"></i>
                     </div>                    
@@ -54,7 +62,7 @@ include "fakerequest.php";
             <div class="row">
                 <div class="col-sm-2 plan price-one wow fadeInDown" data-wow-offset="0" data-wow-delay="0.2s">
                     <ul>
-                    <li class="heading-two">
+                    <li class="heading-six">
 						<h2>Date</h2>
                     </li>
 					<?php
@@ -68,7 +76,7 @@ include "fakerequest.php";
                 </div>
                 <div class="col-sm-5 plan price-one wow fadeInDown" data-wow-offset="0" data-wow-delay="0.2s">
                     <ul>
-                    <li class="heading-two">
+                    <li class="heading-three">
                     <h2>Title</h2>
 					<?php
 					foreach ($seeker as $id => $var ) 
