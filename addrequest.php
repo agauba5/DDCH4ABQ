@@ -11,7 +11,7 @@ require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
   
 <div class="request-page">
     <form class="request-form">
-        <h2>Request</h2>
+       <h2>Request</h2>
         <div>
             <label for="Title">Title:</label>
             <textarea class="form-control" rows="1" id="title"></textarea>
@@ -20,9 +20,18 @@ require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
             <label for="Description">Description:</label>
             <textarea class="form-control" rows="5" id="Description"></textarea>
         </div>
+       <div>
+           <text><a href="#"> + Add Time</a></text>
+       </div>
+       <div style="align-self: left">
+       <button type="cancel" class="btn btn-theme pull-left">Cancel</button>
+    </div>
+       <div style="align-self: right">
+        <button type="submit" class="btn btn-theme pull-left">Submit</button>
+    </div>
     </form>
+
 </div>
-s
 
 <?php
 require_once $lowerLevel . 'assets/inc/standard_footer.inc.php';
