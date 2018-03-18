@@ -50,7 +50,8 @@ if ($eUserId !== false)
 	{
 		$session->del("userLoginId");
 	}
-}?>
+}
+?>
 <header id="header">
         <nav class="navbar navbar-fixed-top" role="banner">
             <div class="container">
@@ -64,7 +65,8 @@ if ($eUserId !== false)
                     <a class="navbar-brand" href="index.php" style="color: white; font-style: italic; font-weight: bold">Helping Out Us</a>
 			</div>
 <?php
-if ($pageId != "signup")
+echo '<!-- pageId:' . $pageId . ' -->' . PHP_EOL;
+if ($pageId != "signin")
 {
 	if ($userLoggedIn)
 	{
@@ -88,6 +90,14 @@ if ($pageId != "signup")
 							</ul>
 						</div>';
 	}
+}
+else
+{
+		echo '			<div class="collapse navbar-collapse navbar-right">
+							<ul class="nav navbar-nav">
+								<li><a href="#" style="color: white;"></a></li>                   
+							</ul>
+						</div>';
 }
 ?>			
 

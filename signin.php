@@ -5,10 +5,9 @@
 if (!isset($lowerLevel))
     $lowerLevel = '';
 
+include $lowerLevel . 'assets/inc/standard_open.inc.php';
 $pageId = "signin";
-
-require_once $lowerLevel . 'assets/inc/standard_open.inc.php';
-require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
+include $lowerLevel . 'assets/inc/standard_header.inc.php';
 ?>
 
 
