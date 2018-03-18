@@ -9,9 +9,15 @@ require_once $lowerLevel . 'assets/inc/standard_open.inc.php';
 require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
 ?>
 
-
-ABOUT PAGE
-
+	<div id="feature">
+		<div class="container">
+			<div class="row">
+				<div class="text-center">
+                                    <h3>ABOUT PAGE</h3>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
 <?php

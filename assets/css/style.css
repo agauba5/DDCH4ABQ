@@ -861,14 +861,14 @@ ul.social-network li a {
   color: #FFFFFF;
   font-size: 14px;
   -webkit-transition: all 0.3 ease;
-  transition: all 0.3 ease;
+  transition: all  ease;
   cursor: pointer;
 }
 .page {
   width: 360px;
   padding: 60% 0 0;
   padding-top: 30px;
-  margin: 0 auto 100;
+  margin: 0 auto ;
 }
 .form {
   position: relative;
@@ -881,3 +881,15 @@ ul.social-network li a {
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
+.request-page {
+  width: 360px;
+  padding: 5% 0 0;
+  padding-bottom: 100px;
+  margin: auto;
+}
+.div-btn1{
+    padding: 0 25% 0 ;
+}
+.div-btn2{
+    white-space: 10px;
+}

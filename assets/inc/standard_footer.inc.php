@@ -17,7 +17,7 @@
 		</div>						
 		<div class="text-center">
 			<div class="copyright">
-				&copy; 2018 <a target="_blank" href="http://helpingout.us/" title="Helping ourselves and our community to a better life">HelpingOut.us, eventually a New Mexico 501C3</a>. All Rights Reserved.
+				&copy; 2018 <a target="_blank" href="index.php" title="Helping ourselves and our community to a better life">HelpingOut.us, eventually a New Mexico 501C3</a>. All Rights Reserved.
 			</div>
 		</div>									
 	</footer>

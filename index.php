@@ -16,7 +16,7 @@ require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
 			<div class="row">
 				<div class="text-center">
                                     <h3>OUR GOAL</h3>
-                                    <img src='img/backpic.jpg' alt='stretch'/>
+                                    <img src='img/HH6.jpg' alt='stretch'/>
                                     <h4><b>Welcome to Helping Out Us!</b><br></h4>
                                     <p>
                                         Here, you can help people OR get help

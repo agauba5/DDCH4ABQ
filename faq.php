@@ -10,7 +10,16 @@ require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
 ?>
 
 
-FAQ PAGE
+	<div id="feature">
+		<div class="container">
+			<div class="row">
+				<div class="text-center">
+                                    <h3>FAQ PAGE</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+
 
 
 

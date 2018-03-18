@@ -8,6 +8,7 @@ if (!isset($lowerLevel))
 include $lowerLevel . 'assets/inc/standard_open.inc.php';
 $pageId = "signin";
 include $lowerLevel . 'assets/inc/standard_header.inc.php';
+//include $lowerLevel . 'assets/classes/captchaZDR.php';
 ?>
 
 
@@ -39,8 +40,11 @@ include $lowerLevel . 'assets/inc/standard_header.inc.php';
 			  <option value="tm">T-Mobile</option>
 			  <option value="cri">Cricket</option>
 		  </select>		
-		<p>
-			<button>create my user</button></p>
+		
+		<p><br /></p>
+		<p><div class="g-recaptcha" data-sitekey="6Lf5T00UAAAAAMftiznOxxGm19P6Os8NQdHMTaIg"></div><br /></p>
+		
+			<button>create my user</button>
           <p class="message">Already registered? <a onclick="changetosignin()">Sign In</a></p>
         </form>
       </div>

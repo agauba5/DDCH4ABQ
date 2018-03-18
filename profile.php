@@ -18,8 +18,8 @@ require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
         <div class="row">
             
           <div class="col-md-4 wow fadeInUp" data-wow-offset="0" data-wow-delay="0.2s">
-            <div id="sendmessage">Changes were succesful!</div>
-            <div id="errormessage"></div>
+            <div id="sendmessage" style="display:none"></div>
+            <div id="errormessage" style="display:none"></div>
             <form action="" method="post" role="form" class="contactForm">
               <h5>Email:</h5>
               <div class="form-group">
@@ -40,13 +40,18 @@ require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
               <div class="form-group">
                 <input type="password" class="form-control" name="passwordTwo" id="passwordTwo" data-rule="minlen:4" data-msg="Please enter a password" />
                 <div class="validation"></div>
-              </div>      
+              </div>
+              <h5>Phone Number:</h5>
+              <div class="form-group">
+                <input type="text" name="phoneNumber" class="form-control" id="phoneNumber" />
+                <div class="validation"></div>
+              </div>
             </form>
           </div>
             
             <div class="col-md-4 wow fadeInUp" data-wow-offset="0" data-wow-delay="0.2s">
-            <div id="sendmessage">Changes were succesful!</div>
-            <div id="errormessage"></div>
+            <div id="sendmessage" style="display:none"></div>
+            <div id="errormessage" style="display:none"></div>
             <form action="" method="post" role="form" class="contactForm">
               <h5>Full Name:</h5>
               <div class="form-group">
@@ -80,8 +85,8 @@ require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
           </div>
             
             <div class="col-md-4 wow fadeInUp" data-wow-offset="0" data-wow-delay="0.2s">
-            <div id="sendmessage">Changes were succesful!</div>
-            <div id="errormessage"></div>
+            <div id="sendmessage" style="display:none"></div>
+            <div id="errormessage" style="display:none"></div>
             <form action="" method="post" role="form" class="contactForm">
               <div class="form-group">
                   <div class="checkbox">
@@ -98,6 +103,27 @@ require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
                           </div>
                       </label>
                   </div>
+                  &nbsp;
+                  <div class="option">
+                      <h5>Family Income Range:</h5>
+                          <select name="income">
+                              <option value="">Select...</option>
+                              <option value="incomeTen">$0 - $10,000</option>
+                              <option value="incomeTwenty">$10,000 - $20,000</option>
+                              <option value="incomeThirty">$20,000 - $30,000</option>
+                              <option value="incomeForty">$30,000 - $40,000</option>
+                              <option value="incomeFifty">$40,000 - $50,000</option>
+                              <option value="incomeSixty">$50,000 - $60,000</option>
+                              <option value="incomeSeventy">$60,000 - $70,000</option>
+                              <option value="incomeEighty">$70,000 - $80,000</option>
+                              <option value="incomeNinety">$80,000 - $90,000</option>
+                              <option value="incomeHundred">$90,000 - $100,000</option>
+                              <option value="incomeMore">$100,000 or more</option>
+                          </select>
+                      </label>
+                  </div>
+              </div>
+            </div>
             </form>
           </div>
         </div>
