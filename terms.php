@@ -18,7 +18,7 @@ require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
                                      <div class="maia-article" role="article">
 <div class="maia-teleport" id="content"></div>
 <h1>HellpingOut.us Terms of Service</h1>
-<p>Last modified: March 18, 2018 (<a href="../../policies/terms/archive/">view archived versions</a>)
+<p>Last modified: March 18, 2018 (<a href="../../DDch4abq/archive.php">view archived versions</a>)
 </p><h2>Welcome to HellpingOut.us!</h2>
 <p>Thanks for using our products and services (&#34Services&#34). The Services are provided by HellpingOut.us 501C3 (&#34HellpingOut.us&#34), located at 20 First Plaza Center NW, Albuquerque, NM 87102, United States.
 </p><p>By using our Services, you are agreeing to these terms. Please read them carefully.
