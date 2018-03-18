@@ -62,7 +62,7 @@ include 'fakeRequest.php';
             <div class="row">
                 <div class="col-sm-2 plan price-one wow fadeInDown" data-wow-offset="0" data-wow-delay="0.2s">
                     <ul>
-                    <li class="heading-two">
+                    <li class="heading-six">
                     <h2>Date</h2>
 					<?php
 					foreach ($giver as $id => $var ) 
@@ -75,7 +75,7 @@ include 'fakeRequest.php';
                 </div>
                 <div class="col-sm-5 plan price-one wow fadeInDown" data-wow-offset="0" data-wow-delay="0.2s">
                     <ul>
-                    <li class="heading-two">
+                    <li class="heading-three">
                     <h2>Title</h2>
                     </li>
 					<?php
