@@ -25,13 +25,24 @@ $welcomText = "";
                                     <h3><?php echo $goalText; ?></h3>
                                     <img src='img/HH6.jpg' alt='stretch'/>
                                     <h4><b>Welcome to Helping Out Us!</b><br></h4>
-                                    <p>
-                                        Here, you can help people OR get help
+                                    <p class="col-md-10 col-md-offset-1">
+										Often, all you need is a bit of help! Need something?
+										It could be anything from ideas to used tires for that
+										project you want to finish, or maybe you just need to
+										find a mentor to start a business. Here's where you can
+										make it happen.<br> <br>
+										And if you know you have something to offer, you can share
+										it here too!<br><br>
+										New Mexico is an amazing place full of great people with
+										great ideas ready to help. Let's spread the word and
+										make Helping Out Us the next awesome project in New Mexico.</p> 
+
+                                        <!-- Here, you can help people OR get help
                                         from mentors. The goal of this website is to
                                         help people who are in need OR who want to help
                                         people.<br>Below are two options for you to choose
                                         from! Go ahead and choose from it! May you have an awesome
-                                        experience</p>
+                                        experience</p>-->
 				</div>
 				<div class="col-md-4 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s">
 					<div class="text-center">
