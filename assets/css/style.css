@@ -861,14 +861,14 @@ ul.social-network li a {
   color: #FFFFFF;
   font-size: 14px;
   -webkit-transition: all 0.3 ease;
-  transition: all  ease;
+  transition: all ease;
   cursor: pointer;
 }
 .page {
   width: 360px;
-  padding: 60% 0 0;
+  padding: 50% 0 0;
   padding-top: 30px;
-  margin: 0 auto ;
+  margin: 0 auto 100;
 }
 .form {
   position: relative;
