@@ -5,6 +5,8 @@
 if (!isset($lowerLevel))
     $lowerLevel = '';
 
+$pageId = "signin";
+
 require_once $lowerLevel . 'assets/inc/standard_open.inc.php';
 require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
 ?>
@@ -17,7 +19,7 @@ require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
           <input type="text" placeholder="username"/>
           <input type="password" placeholder="password"/>
           <button>login</button>
-          <p class="message">Not registered? <a href="#" onclick="changetosignup()">Create an account</a></p>
+          <p class="message">Not registered? <a onclick="changetosignup()">Create an account</a></p>
         </form>
       </div>
       <div id="form-signup" style="display: none;">
@@ -26,7 +28,7 @@ require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
           <input type="password" placeholder="password"/>
           <input type="text" placeholder="email address"/>
           <button>create</button>
-          <p class="message">Already registered? <a href="#">Sign In</a></p>
+          <p class="message">Already registered? <a onclick="changetosignin()">Sign In</a></p>
         </form>
       </div>
     </div>
@@ -37,6 +39,6 @@ require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
 require_once $lowerLevel . 'assets/inc/standard_footer.inc.php';
 require_once $lowerLevel . 'assets/inc/standard_script.inc.php';
 ?>
-<script src = js/signup.js"></script>
+<script src="assets/js/signup.js"></script>
 <?php
 require_once $lowerLevel . 'assets/inc/standard_close.inc.php';
