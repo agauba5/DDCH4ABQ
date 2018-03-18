@@ -15,18 +15,32 @@ include $lowerLevel . 'assets/inc/standard_header.inc.php';
     <div class="form">
       <div id="form-signin" >
         <form class="login-form">
-          <input type="text" placeholder="username"/>
-          <input type="password" placeholder="password"/>
+          <input id="loginId" name="loginId" type="text" placeholder="username"/>
+          <input id="password" name="password" type="password" placeholder="password"/>
           <button>login</button>
           <p class="message">Not registered? <a onclick="changetosignup()">Create an account</a></p>
         </form>
       </div>
       <div id="form-signup" style="display: none;">
         <form class="register-form">
-          <input type="text" placeholder="name"/>
-          <input type="password" placeholder="password"/>
-          <input type="text" placeholder="email address"/>
-          <button>create</button>
+          <input id="addLoginId" name="addLoginId" type="text" placeholder="name"/>
+          <input id="addPassword" name="addPassword" type="password" placeholder="password"/>
+          <input id="addConfirm" name="addConfirm" type="confirm" placeholder="confirm password"/>		  
+          <input id="addEmail" name="addEmail" type="text" placeholder="email address"/>
+		  <div class="checkbox"><label>no email</label>
+			<input id="addNoEmail" name="addNoEmail" type="checkbox" />
+
+		  </div>
+		<input id="addPhone" name="addPhone" type="text" placeholder="phone"/>
+		  <select class="col-lg-12" id="addCarrier" name="addCarrier" type="text" >
+			  <option value="0">-- Select Carrier --</option>
+			  <option value="att">AT&T</option>
+			  <option value="ver">Verizon</option>
+			  <option value="tm">T-Mobile</option>
+			  <option value="cri">Cricket</option>
+		  </select>		
+		<p>
+			<button>create my user</button></p>
           <p class="message">Already registered? <a onclick="changetosignin()">Sign In</a></p>
         </form>
       </div>
