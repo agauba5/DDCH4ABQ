@@ -18,8 +18,8 @@ require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
         <div class="row">
             
           <div class="col-md-4 wow fadeInUp" data-wow-offset="0" data-wow-delay="0.2s">
-            <div id="sendmessage"></div>
-            <div id="errormessage"></div>
+            <div id="sendmessage" style="display:none"></div>
+            <div id="errormessage" style="display:none"></div>
             <form action="" method="post" role="form" class="contactForm">
               <h5>Email:</h5>
               <div class="form-group">
@@ -50,8 +50,8 @@ require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
           </div>
             
             <div class="col-md-4 wow fadeInUp" data-wow-offset="0" data-wow-delay="0.2s">
-            <div id="sendmessage"></div>
-            <div id="errormessage"></div>
+            <div id="sendmessage" style="display:none"></div>
+            <div id="errormessage" style="display:none"></div>
             <form action="" method="post" role="form" class="contactForm">
               <h5>Full Name:</h5>
               <div class="form-group">
@@ -85,8 +85,8 @@ require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
           </div>
             
             <div class="col-md-4 wow fadeInUp" data-wow-offset="0" data-wow-delay="0.2s">
-            <div id="sendmessage"></div>
-            <div id="errormessage"></div>
+            <div id="sendmessage" style="display:none"></div>
+            <div id="errormessage" style="display:none"></div>
             <form action="" method="post" role="form" class="contactForm">
               <div class="form-group">
                   <div class="checkbox">
