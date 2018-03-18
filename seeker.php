@@ -57,9 +57,8 @@ require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
 			</div>
 		</div>
 	</div>
-
-
+ 
 <?php
 require_once $lowerLevel . 'assets/inc/standard_footer.inc.php';
 require_once $lowerLevel . 'assets/inc/standard_script.inc.php';
-require_once $lowerLevel . 'assets/inc/standard_close.inc.php';
+require_once $lowerLevel . 'assets/inc/standard_close.inc.php'; 
