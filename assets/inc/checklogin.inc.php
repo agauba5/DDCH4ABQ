@@ -29,7 +29,7 @@ if ($eUserId !== false)
 		if ($userToken !== false)
 		{
 			// Generate a new token from the old token
-			$newUserToken = $en->encrypt($userId . $userLoginTime);
+			$newUserToken = $en->encrypt($userId . strval($userLoginTime));
 			if ($newUserToken == $userToken)
 			{
 				$userLoggedIn = true;
