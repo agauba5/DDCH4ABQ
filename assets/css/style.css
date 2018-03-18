@@ -864,7 +864,7 @@ ul.social-network li a {
   transition: all 0.3 ease;
   cursor: pointer;
 }
-.provider-page {
+.page {
   width: 360px;
   padding: 60% 0 0;
   padding-top: 30px;

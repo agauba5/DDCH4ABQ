@@ -10,55 +10,102 @@ require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
 ?>
 
 
+<div id="feature">
+    <div class="page">
+        <div class="container">
+            <div class="text-center">
+                <h2><b>Seeking Help?</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-10 col-md-10">
+                    <div class="widget">
+                        <div class="widget-body">
+                            <form id="form-new-facility-client" class="form-horizontal no-margin">
+                                <div id="div-filterBy" class="form-group">
+                                    <label for="filterBy" class="col-sm-2 control-label">Filter By</label>
+                                    <div class="col-sm-8">
+                                        <select id="filterBy" name="filterBy" class="form-control" onChange="changeFilter('filterBy')">
+                                            <option value="0">Select All</option>
+                                            <option style="display:none" value="type">Radius</option>
+                                            <option style="display:none" value="type">Time Range</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-1">
+                    <div class="hi-icon-wrap hi-icon-effect">
+                        <i class="fa fa-refresh"></i>
+                    </div>
+                </div>
+                <div class="col-sm-1">
+                    <div class="hi-icon-wrap hi-icon-effect">
+                        <i class="fa fa-plus"></i>
+                    </div>                    
+                </div>
+            </div>                
+        </div>
+    </div>
+ </div>
+<!-- row ends -->
 
-	<div id="feature">
-		<div class="container">
-			<div class="row">
-				<div class="text-center">
-					<h3>HELLO BRUCE</h3>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit<br>amet consectetur adipisicing elit</p>
-				</div>
-				<div class="col-md-3 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s">
-					<div class="text-center">
-						<div class="hi-icon-wrap hi-icon-effect">
-							<i class="fa fa-laptop"></i>						
-							<h2>Fully Responsive</h2>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s">
-					<div class="text-center">
-						<div class="hi-icon-wrap hi-icon-effect">
-							<i class="fa fa-heart-o"></i>
-							<h2>Retina Ready</h2>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 wow fadeInLeft" data-wow-offset="0" data-wow-delay="0.3s">
-					<div class="text-center">
-						<div class="hi-icon-wrap hi-icon-effect">
-							<i class="fa fa-cloud"></i>
-							<h2>Easily Customize</h2>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 wow fadeInLeft" data-wow-offset="0" data-wow-delay="0.3s">
-					<div class="text-center">
-						<div class="hi-icon-wrap hi-icon-effect">
-							<i class="fa fa-camera"></i>
-							<h2>Quality Code</h2>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
- 
+<div id="pricing">
+    <div class="container">
+        <div class="pricing-area text-center">
+            <div class="row">
+                <div class="col-sm-2 plan price-one wow fadeInDown" data-wow-offset="0" data-wow-delay="0.2s">
+                    <ul>
+                    <li class="heading-two">
+                    <h2>Date</h2>
+                    </li>
+                    <li><a></a></li>
+                    <li><a></a></li>
+                    <li><a></a></li>
+                    <li><a></a></li>
+                        <li></li>
+                        <li class="plan-action">
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-5 plan price-one wow fadeInDown" data-wow-offset="0" data-wow-delay="0.2s">
+                    <ul>
+                    <li class="heading-two">
+                    <h2>Title</h2>
+                    </li>
+                    <li><a></a></li>
+                    <li><a></a></li>
+                    <li><a></a></li>
+                    <li><a></a></li>
+                        <li></li>
+                        <li class="plan-action">
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-5 plan price-one wow fadeInDown" data-wow-offset="0" data-wow-delay="0.2s">
+                    <ul>
+                    <li class="heading-two">
+                    <h2>Detail</h2>
+                    </li>
+                    <li><a></a></li>
+                    <li><a></a></li>
+                    <li><a></a></li>
+                    <li><a></a></li>
+                        <li></li>
+                        <li class="plan-action">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+
+
 <?php
 require_once $lowerLevel . 'assets/inc/standard_footer.inc.php';
 require_once $lowerLevel . 'assets/inc/standard_script.inc.php';
-require_once $lowerLevel . 'assets/inc/standard_close.inc.php'; 
+require_once $lowerLevel . 'assets/inc/standard_close.inc.php';
