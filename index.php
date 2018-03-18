@@ -7,6 +7,13 @@ if (!isset($lowerLevel))
 
 require_once $lowerLevel . 'assets/inc/standard_open.inc.php';
 require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
+$goalText = "OUR GOAL";
+echo '<!-- lang:' . $lang . " -->" . PHP_EOL;
+if ($lang == "es")
+{
+	$goalText = "NUESTRA META";
+}
+$welcomText = "";
 ?>
 
 
@@ -15,7 +22,7 @@ require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
 		<div class="container">
 			<div class="row">
 				<div class="text-center">
-                                    <h3>OUR GOAL</h3>
+                                    <h3><?php echo $goalText; ?></h3>
                                     <img src='img/HH6.jpg' alt='stretch'/>
                                     <h4><b>Welcome to Helping Out Us!</b><br></h4>
                                     <p>

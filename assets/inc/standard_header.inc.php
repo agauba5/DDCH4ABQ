@@ -4,10 +4,33 @@ if (!isset($lowerLevel))
     $lowerLevel = '';
 
 require_once $lowerLevel . 'assets/classes/session.class.php';
+$session = new sessionClass();
+$lang = $session->get("lang");
+
+echo '<!-- GET:' . print_r($_GET, true) . ' -->' .PHP_EOL;
+
+if (isset($_GET["lang"]))
+{
+	$lang = strip_tags($_GET["lang"]);
+	echo '<!-- newLang:' . $lang . ' -->' .PHP_EOL;	
+}
+else
+{
+	$lang = "en";
+}
+
+$session->set("lang",$lang);
+
 require_once $lowerLevel . 'assets/classes/encrypt.class.php';
 
 // Returns $userDispName (decyrpted name), $userLoggedIn (boolean), $userLoginTime (bigInt - unixtimestamp)
 include $lowerLevel . 'assets/inc/checklogin.inc.php';
+
+$langText = "";
+if ($lang != "en")
+{
+	$langText = "?lang=" . $lang;
+}
 ?>
 <header id="header">
         <nav class="navbar navbar-fixed-top" role="banner">
@@ -19,7 +42,7 @@ include $lowerLevel . 'assets/inc/checklogin.inc.php';
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.php" style="color: white; font-style: italic; font-weight: bold">Helping Out Us</a>
+                    <a class="navbar-brand" href="index.php<?php echo $langText;?>" style="color: white; font-style: italic; font-weight: bold">Helping Out Us</a>
 			</div>
 <?php
 echo '<!-- pageId:' . $pageId . ' -->' . PHP_EOL;
@@ -43,6 +66,8 @@ if ($pageId != "signin")
 	{
 		echo '			<div class="collapse navbar-collapse navbar-right">
 							<ul class="nav navbar-nav">
+								<li><a href="index.php?lang=es" style="color: white;">Espa&#241;ol</a></li>      
+								<li><a href="index.php?lang=en" style="color: white;">English</a></li>   								
 								<li><a href="signin.php" style="color: white;">Sign-In/Sign Up</a></li>                   
 							</ul>
 						</div>';
