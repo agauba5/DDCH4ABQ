@@ -861,14 +861,14 @@ ul.social-network li a {
   color: #FFFFFF;
   font-size: 14px;
   -webkit-transition: all 0.3 ease;
-  transition: all 0.3 ease;
+  transition: all  ease;
   cursor: pointer;
 }
 .provider-page {
   width: 360px;
   padding: 60% 0 0;
   padding-top: 30px;
-  margin: 0 auto 100;
+  margin: 0 auto ;
 }
 .form {
   position: relative;
@@ -883,18 +883,13 @@ ul.social-network li a {
 
 .request-page {
   width: 360px;
-  padding: 10% 0 0;
+  padding: 5% 0 0;
   padding-bottom: 100px;
   margin: auto;
 }
-.form {
-  font-family: "Roboto", sans-serif;
-  outline: 0;
-  background: #f2f2f2;
-  width: 100%;
-  border: 0;
-  margin: 0 0 15px;
-  padding: 15px;
-  box-sizing: border-box;
-  font-size: 14px;
+.div-btn1{
+    padding: 0 25% 0 ;
+}
+.div-btn2{
+    white-space: 10px;
 }
