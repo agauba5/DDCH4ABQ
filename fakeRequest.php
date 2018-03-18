@@ -65,14 +65,14 @@
             'Date' => 1521345265)
         );
         
-    
+   /*
 foreach ($seeker as $var ) {
     echo "\r\n ", "ID: ", $var['ID'], "\r\n", "Title: \n", $var['Title'], "\r\nUser ID: ", $var['User_ID'], "\r\nDetail: ", $var['Detail'], "\r\nDate: ", $var['Date'], "\n";
 }
 
 foreach ($giver as $var ) {
     echo "\r\n", "ID: ", $var['ID'], "\r\n", "Title: \n", $var['Title'], "\r\nUser ID: ", $var['User_ID'], "\r\nDetail: ", $var['Detail'], "\r\nDate: ", $var['Date'], "\n";
-}
+}*/
 
 
 ?>
