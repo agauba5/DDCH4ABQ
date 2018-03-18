@@ -14,10 +14,11 @@ require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
 			<div class="row">
 				<div class="text-center">
                                     <h3>TERMS PAGE</h3>
+                                </div>
                                      <div class="maia-article" role="article">
 <div class="maia-teleport" id="content"></div>
 <h1>HellpingOut.us Terms of Service</h1>
-<p>Last modified: October 25, 2017 (<a href="../../policies/terms/archive/">view archived versions</a>)
+<p>Last modified: March 18, 2018 (<a href="../../policies/terms/archive/">view archived versions</a>)
 </p><h2>Welcome to HellpingOut.us!</h2>
 <p>Thanks for using our products and services (&#34Services&#34). The Services are provided by HellpingOut.us 501C3 (&#34HellpingOut.us&#34), located at 20 First Plaza Center NW, Albuquerque, NM 87102, United States.
 </p><p>By using our Services, you are agreeing to these terms. Please read them carefully.
@@ -68,7 +69,6 @@ require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
 </p><p>If it turns out that a particular term is not enforceable, this will not affect any other terms.
 </p><p>The laws of New Mexico, U.S.A., excluding New Mexico&#39s conflict of laws rules, will apply to any disputes arising out of or relating to these terms or the Services. All claims arising out of or relating to these terms or the Services will be litigated exclusively in the federal or state courts of Bernallio County, New Mexico, USA, and you and HelpingOut.us consent to personal jurisdiction in those courts.
 </p><p>For information about how to contact HelpingOut.us, please visit our <a href="../../contact/">contact page</a>.</p></div>
-				</div>
 			</div>
 		</div>
 	</div>
