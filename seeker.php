@@ -7,7 +7,7 @@ if (!isset($lowerLevel))
 
 require_once $lowerLevel . 'assets/inc/standard_open.inc.php';
 require_once $lowerLevel . 'assets/inc/standard_header.inc.php';
-include "fakerequest.php";
+include "fakeRequest.php";
 ?>
 
 
