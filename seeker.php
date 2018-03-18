@@ -102,4 +102,7 @@ include "fakerequest.php";
 <?php
 require_once $lowerLevel . 'assets/inc/standard_footer.inc.php';
 require_once $lowerLevel . 'assets/inc/standard_script.inc.php';
+?>
+<script src="assets/js/seeker.js"></script>
+<?php
 require_once $lowerLevel . 'assets/inc/standard_close.inc.php'; 

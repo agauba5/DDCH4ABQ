@@ -68,7 +68,7 @@ include 'fakeRequest.php';
 					foreach ($giver as $id => $var ) 
 					{
 						$dateTime = date('l, F d, Y',$var['Date']);
-						echo '<li><a onclick="detailSeeker(' . $var['ID'] . ')" style="font-size: 11px;">' . $dateTime . '</a></li>' . PHP_EOL;
+						echo '<li><a onclick="detailGiver(' . $var['ID'] . ')" style="font-size: 11px;">' . $dateTime . '</a></li>' . PHP_EOL;
 					}
 					?>
                     </ul>
@@ -81,7 +81,7 @@ include 'fakeRequest.php';
 					<?php
 					foreach ($giver as $id => $var ) 
 					{
-						echo '<li><a onclick="detailSeeker(' . $var['ID']. ')" style="font-size: 11px;">' . $var['Title'] . '</a></li>' . PHP_EOL;
+						echo '<li><a onclick="detailGiver(' . $var['ID']. ')" style="font-size: 11px;">' . $var['Title'] . '</a></li>' . PHP_EOL;
 					}
 					?>
                     </ul>
@@ -94,7 +94,7 @@ include 'fakeRequest.php';
 					<?php
 					foreach ($giver as $id => $var ) 
 					{
-						echo '<li>' . '<button onclick="detailSeeker('.$var['ID'].')">View Detail</button>' . '</li>' . PHP_EOL;
+						echo '<li>' . '<button onclick="detailGiver('.$var['ID'].')">View Detail</button>' . '</li>' . PHP_EOL;
 					}
 					?>
                     </ul>
@@ -111,4 +111,7 @@ include 'fakeRequest.php';
 <?php
 require_once $lowerLevel . 'assets/inc/standard_footer.inc.php';
 require_once $lowerLevel . 'assets/inc/standard_script.inc.php';
+?>
+<script src="assets/js/provider.js"></script>
+<?php
 require_once $lowerLevel . 'assets/inc/standard_close.inc.php';
